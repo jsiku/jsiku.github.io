@@ -1,0 +1,29 @@
+baseURL = "https://siku.name/"
+author = "Jsiku"
+paginate = 8
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+# Above are configs from hugoBasicExample
+
+title = "Siku Name"
+theme = "hugo-primer"
+hasCJKLanguage = true
+summaryLength = 70
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+googleAnalytics = ""
+disqusShortname=""
+copyright = "&copy;Jsiku 2021"
+
+[params]
+description = "Jsiku Dev Blog"
+twitter = ""
+useIcon = false
+useTwitterCard = true
+# exampleSite must not have js share widget: #36
+# shareTo = ["Twitter", "Hatena", "Facebook", "Pocket"]
+shareTo = []
+showFooterCredits = true
+math = true
